@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true">
+        <TextView
+
+            android:layout_alignParentStart="true"
+            android:text="1.1.19"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/time_text_mine"
+            android:textSize="15sp"
+            android:layout_marginStart="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:paddingStart="15dp"
+            android:padding="3dp"
+            android:background="@drawable/back_massage"
+            android:layout_below="@id/time_text_mine"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="massage botdy"
+            android:id="@+id/massage_text_mine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:paddingEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:text="1.1.19"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/time_text_other"
+            android:textSize="15sp"
+            android:layout_marginEnd="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingRight="15dp" />
+        <TextView
+            android:padding="3dp"
+            android:background="@drawable/back_massage_other"
+            android:layout_below="@id/time_text_other"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:text="massage botdy"
+            android:id="@+id/massage_text_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentRight="true" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
